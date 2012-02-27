@@ -1,0 +1,10 @@
+<?php
+	define("AJAX",true);
+	include("system/core.php");
+	if($_page){
+		include("modul/ajax/".$_page.".php");
+	}
+	else{
+		die("Error");
+	}
+?>

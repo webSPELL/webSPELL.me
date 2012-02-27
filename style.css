@@ -1,0 +1,270 @@
+/* CSS Document */
+
+* {	margin:0; padding:0; font-size:100%;}
+
+body{background:#efefef; text-align:center;}
+
+img {vertical-align:top;}
+a img { border:0;}
+
+ul { list-style:none;}
+
+.left { float:left;}
+.right {float:right;}
+.clear  { clear:both;}
+
+html, textarea{ font-family:Arial, Helvetica, sans-serif; font-size:0.75em; line-height:1.333em; color:#787878;}
+
+input, select { vertical-align:middle; font-weight:normal;}
+
+a {color:#87A7AB;}
+a:hover{text-decoration:none;}
+.black{ text-transform:uppercase; color:#1d1d1d;}
+.orange{ font-weight:bold; color:#e49d04;}
+p {padding-top:18px;}
+h2{ font-size:2em; font-weight:normal; line-height:1em; color:#1f1f1f; padding-bottom:15px;}
+h2 span{ color:#e49d04;}
+h3{ font-size:1.75em; color:#1e1e1e; font-weight:normal; padding-bottom:12px; margin-left:-2px;}
+
+
+/* ============================= main layout ====================== */
+.imgindent {margin:0 20px 0 0; float:left;}
+.padding1{ padding-top:9px;}
+.padding2{ padding-top:6px;}
+.padding3{ padding-top:15px;}
+.padding4{ padding-top:38px;}
+.margin1{ margin-top:-4px;}
+.margin2{ margin-top:14px;}
+.margin3{ margin-right:14px;}
+.margin4{ margin-left:14px;}
+
+.strong1{ color:#1d1d1d; font-size:1.167em; font-weight:normal; display:block; padding-bottom:3px; line-height:1.286em;}
+.strong2{ color:#e49d04;}
+.strong3{ color:#0969a7; text-transform:uppercase; display:block; padding-bottom:3px;}
+
+/* ============================= header ====================== */
+#header{ background:url(images/header-tail.gif) top repeat-x;}
+#header .main{ height:387px; background:url(images/header-bg.jpg) right bottom no-repeat;}
+#header .top{ width:100%; overflow:hidden; height:110px; background:url(images/top-bg.gif) top right no-repeat;}
+#header .menu{ float:right; padding:57px 42px 0 0;}
+#header .menu li{ float:left; text-align:center; width:111px; border-right:solid 1px #505050; line-height:1.667em;}
+#header .menu .last{ border:none;}
+#header .menu a{ color:#ffffff; text-decoration:none;}
+#header .menu a:hover, #header .menu .active{ color:#737373;}
+
+#header .logo{ padding:26px 0 0 50px;}
+#header .logo {
+	font-size: 12px;
+	color: #797979;
+	text-shadow: #000000 1px 1px 1px;
+	line-height: 20px;
+}
+#header .logo big {
+	font-size: 45px;
+	color: #FFFFFF;
+	font-weight:lighter;
+}
+#header .logo small {
+	font-weight: bold;
+	color: #e49d04;
+	font-size: 30px;
+}
+#header .banners{ float:left; padding:30px 0 0 32px;}
+#header .banners #grey_banner{
+	width: 206px;
+	height: 51px;
+	background-image:url(images/grey_info.png);
+	color: #e49d04;
+	text-align: center;
+	padding: 10px;
+	padding-right: 20px;
+	text-shadow: #000000 2px 2px 2px;
+	line-height: 20px;
+}
+#header .banners #orange_banner{
+	width: 184px;
+	height: 112px;
+	background-image: url(images/orange_info.png);
+	color: #1f1f1f;
+	padding: 20px;
+}
+#header .banners #orange_banner a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+#header .banners #grey_banner big {
+	font-weight: bold;
+	font-size: 18px;
+}
+#header .banners #orange_banner big {
+	font-weight: bold;
+}
+#header .header-text{ float:left; padding:48px 0 0 22px; color:#0969a7; width:310px; font-weight:bold;}
+#header .banners{ float:left; padding:30px 0 0 32px;}
+#header .header-text ul{ padding:16px 0 10px 0;}
+.buttons{ padding-top:11px;}
+#header #info_button {
+	padding: 0px;
+	background-image: url(images/button.png);
+	text-shadow: #000000 1px 1px 1px;
+	width: 277px;
+	height: 26px;
+	position: absolute;
+	display: block;
+	overflow:hidden;
+}
+#header #info_button a {
+	color: #FFFFFF;
+	font-weight: normal;
+	float:left;
+	text-align: center;
+	margin-top: 3px;
+}
+#header #info_button .even {
+	width: 103px;
+	display:block;
+	margin-right: 10px;
+}
+.header-text ul li {
+	height: 25px;
+	background-repeat:no-repeat;
+	color: #0969a7;
+	font-weight: bold;
+	text-decoration: none;
+	padding-left: 25px;
+}
+/* ============================= content ====================== */
+#content{ background:#ffffff;}
+#content .main{ width:905px; padding:24px 43px 28px 32px;}
+#content .buttons{ padding:11px 0 0 4px;}
+.unline{ background:url(images/line.gif) bottom repeat-x; padding-bottom:15px;}
+
+.title{ background:url(images/title-bg.gif) top repeat-x;}
+.title .corner-left{ background:url(images/title-left-bg.gif) no-repeat 0 0;}
+.title .corner-right{ background:url(images/title-right-bg.gif) right top no-repeat; padding:13px 0 7px 24px;}
+
+.box{ background:url(images/box-tail.gif) bottom repeat-x; width:100%;}
+.box .left-corner{ background:url(images/box-left-corner.gif) left bottom no-repeat; width:100%;}
+.box .right-corner{ background:url(images/box-right-corner.gif) right bottom no-repeat; width:100%;}
+.box .indent{ padding:12px 25px 19px 24px;}
+.box .indent2{ padding:16px 25px 19px 24px;}
+
+.list li{ background:url(images/list-bg.gif) no-repeat 0 5px; line-height:2em; padding-left:21px;}
+.list a{ font-weight:bold; color:#0969a7; text-decoration:none;}
+.list a:hover{ text-decoration:underline;}
+
+.list1{ margin-top:-4px;}
+.list1 li{ line-height:2.143em; background:url(images/line.gif) bottom repeat-x; margin-left:32px;}
+.list1 a{ display:inline-block; color:#0969a7; text-decoration:none; font-size:1.167em; margin-left:-32px; padding:0 0 5px 32px;}
+.list1 a:hover{ color:#e49d04;}
+.list1 .item1{ background:url(images/list1-item1-bg.gif) no-repeat 0 0;}
+.list1 .item2{ background:url(images/list1-item2-bg.gif) no-repeat 0 0;}
+.list1 .item3{ background:url(images/list1-item3-bg.gif) no-repeat 0 0;}
+.list1 .item4{ background:url(images/list1-item4-bg.gif) no-repeat 0 0;}
+.list1 .item5{ background:url(images/list1-item5-bg.gif) no-repeat 0 0;}
+.list1 .item6{ background:url(images/list1-item6-bg.gif) no-repeat 0 0;}
+.list1 .item7{ background:url(images/list1-item7-bg.gif) no-repeat 0 0;}
+.list1 .item8{ background:url(images/list1-item8-bg.gif) no-repeat 0 0;}
+
+.list2 li{ border-bottom:solid 1px #dfdfdf;}
+.list2 li a{ color:#0969a7; font-size:1.167em; text-decoration:none; line-height:2.071em; display:block; cursor:pointer;}
+.list2 li a span{ display:inline-block; width:240px; }
+.list2 li a strong{ display:inline-block; width:88px; font-weight:normal }
+.list2 li a:hover{ background:#f5f5f5;}
+.list2 .line1{ background:url(images/line.gif) repeat-y 222px 0;}
+.list2 .line2{ background:url(images/line.gif) repeat-y 307px 0;}
+.list2 .last{ border:none;}
+.list2 em{ display:block; height:20px;}
+.list2 b{ display:block; font-weight:normal;}
+
+.link{	display:block; background:url(images/link-left-bg.gif) left no-repeat ; float:right; line-height:1em; font-size:1.167em; text-decoration:none; margin-top:8px; color:#ffffff;}
+.link:hover{ text-decoration:underline;}
+.link span{ display:block; background:url(images/link-right-bg.gif) right no-repeat; padding:0 6px;}
+.link strong{ font-weight:normal; display:block; background:url(images/link-bg.gif) repeat-x; padding:4px 5px 5px 6px;}
+
+.link2{	display:block; background:url(images/link-left-bg.gif) left no-repeat ; float:left; line-height:1em; font-size:1.167em; text-decoration:none; margin-top:8px; color:#ffffff;}
+.link2:hover{ text-decoration:underline;}
+.link2 span{ display:block; background:url(images/link-right-bg.gif) right no-repeat; padding:0 6px;}
+.link2 strong{ font-weight:normal; display:block; background:url(images/link-bg.gif) repeat-x; padding:4px 5px 5px 6px;}
+
+
+.row-2{ padding:41px 0 0 25px;}
+.indent{ padding:9px 0 0 25px;}
+.line{ background:url(images/line.gif) repeat-y 241px 0;}
+
+/* ============================= page1 ====================== */
+#page1 .row-1 .col-2, #page1 .row-1 .col-3, #page1 .row-1 .col-4{ margin-left:3px;}
+#page1 .row-2 .column-2{ margin-left:70px;}
+#page1 .row-2 .column-2 .col-2{ margin-left:45px;}
+
+/* ============================= page2 ====================== */
+#page2 .row-1 .col-2, #page2 .row-1 .col-3{ margin-left:3px;}
+#page2 .row-2 .column-2{ margin-left:73px;}
+
+/* ============================= page3 ====================== */
+#page3 .column-2{ margin-left:47px;}
+#page3 .column-2 .col-2{ margin-left:43px;}
+
+/* ============================= page4 ====================== */
+#page4 .col-2, #page4 .col-3, #page4 .col-4{ margin-left:3px;}
+#page4 .row-2{ padding:0;}
+
+/* ============================= page5 ====================== */
+#page5 .column-2{ margin-left:30px;}
+.phones{ line-height:1.417em;}
+.phone{ float:right; padding-right:140px;}
+
+.email{ font-size:1.167em; padding-top:27px;}
+.email a{ color:#0969a7;}
+
+/* ============================= footer ====================== */
+#footer{ background:#efefef;}
+#footer .main{ text-align:right; color:#7c7c7c; font-weight:bold; }
+#footer a{ color:#7c7c7c; font-weight:bold; text-decoration:none;}
+#footer a:hover{ text-decoration:underline;}
+#footer .text{ padding:10px 58px 0 0;}
+
+
+/* ============================= forms ============================= */
+#ContactForm{ padding-top:10px;}
+#ContactForm label{ display:block; height:28px;}
+#ContactForm input{ margin-top:3px; border:solid 1px #7d7d7d; width:290px; padding:2px 0 2px 2px; font-family:Arial, Helvetica, sans-serif; color:#787878;}
+#ContactForm textarea{ margin-top:3px; border:solid 1px #7d7d7d; width:290px; padding:2px 0 2px 2px; height:190px; overflow:hidden; font-size:1em !important;}
+#ContactForm .link{ margin-top:25px;}
+#ContactForm .link strong{ font-weight:normal; display:block; background:url(images/link-bg.gif) repeat-x; padding:4px 23px 5px 23px;}
+
+#dhtmltooltip{
+	position: absolute;
+	left: -300px;
+	width: 150px;
+	border: 1px solid black;
+	padding: 2px;
+	background-color: lightyellow;
+	visibility: hidden;
+	z-index: 100;
+	/*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);
+}
+
+#dhtmlpointer{
+	position:absolute;
+	left: -300px;
+	z-index: 101;
+	visibility: hidden;
+}
+
+.ok {
+	color: #33FF00;
+	font-size: 14px;
+}
+.error {
+	color: #FF3300;
+	font-size: 14px;
+}
+.small {
+	font-size: 11px;
+}
+.lable {
+	font-size: 12px;
+	font-weight: bold;
+}
